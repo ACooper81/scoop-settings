@@ -1,0 +1,15 @@
+{
+    "version": "200719.1456",
+    "description": "This adds default settings for Open Shell Menu",
+    "homepage": "https://open-shell.github.io/Open-Shell-Menu/",
+    "license": "",
+    "notes": "",
+    "url": "https://github.com/ACooper81/SharedFiles/blob/master/SettingFiles/OpenShellMenu/OpenShellUserSettings.zip",
+    "hash": "8270615ffe8f4a128b0571f6aae9d5ed02fe28535abe414b9131f9ddc87d13c5",
+    "installer": {
+        "script": [
+            "reg import \"$dir\\OpenShellUserSettings.reg\"",
+            "Remove-Item \"$dir\\OpenShellUserSettings.reg\" -Force"
+        ]
+    }
+}
