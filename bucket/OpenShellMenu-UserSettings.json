@@ -4,7 +4,7 @@
     "homepage": "https://open-shell.github.io/Open-Shell-Menu/",
     "license": "",
     "notes": "",
-    "url": "https://github.com/ACooper81/SharedFiles/blob/master/SettingFiles/OpenShellMenu/OpenShellUserSettings.zip",
+    "url": "https://github.com/ACooper81/SharedFiles/blob/master/SettingFiles/OpenShellMenu/OpenShellUserSettings.reg",
     "installer": {
         "script": [
             "reg import \"$dir\\OpenShellUserSettings.reg\"",
