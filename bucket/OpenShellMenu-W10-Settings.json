@@ -1,5 +1,5 @@
 {
-    "version": "201002.2046",
+    "version": "201002.2050",
     "description": "This adds default settings for Open Shell Menu",
     "homepage": "https://open-shell.github.io/Open-Shell-Menu/",
     "license": "",
@@ -26,7 +26,9 @@
             "Copy-Item -Path \"$dir\\Tenified.skin\" -Destination \"$SkinDestinationFolder\" | Out-Null",
             "$IconDestinationFolder = \"$ProgramFilesPath\\Open-Shell\\Icons\\w10icons\"",
             "if(!(Test-Path -Path $IconDestinationFolder )){New-Item -Path $IconDestinationFolder -ItemType directory}",
-            "Copy-Item -Path \"$dir\\w10icons\\*\" -Destination \"$IconDestinationFolder\" | Out-Null"
+            "Copy-Item -Path \"$dir\\w10icons\\*\" -Destination \"$IconDestinationFolder\" | Out-Null",
+            "&\"$ProgramFilesPath\\Open-Shell\\StartMenu.exe\" -exit | Out-Null",
+            "&\"$ProgramFilesPath\\Open-Shell\\StartMenu.exe\" | Out-Null"
         ]
     }
 }
