@@ -26,7 +26,7 @@
             "Copy-Item -Path \"$dir\\Tenified.skin\" -Destination \"$SkinDestinationFolder\" -Force",
             "$IconDestinationFolder = \"$ProgramFilesPath\\Open-Shell\\Icons\\w10icons\"",
             "if(!(Test-Path -Path $IconDestinationFolder )){New-Item -Path $IconDestinationFolder -ItemType directory}",
-            "Copy-Item -Path \"$dir\\w10icons\\*\" -Destination \"$IconDestinationFolder\" -Force",
+            "Copy-Item -Path \"$dir\\w10icons\\*\" -Destination \"$IconDestinationFolder\" -Force -Recurse",
             "&\"$ProgramFilesPath\\Open-Shell\\StartMenu.exe\" -exit | Out-Null",
             "&\"$ProgramFilesPath\\Open-Shell\\StartMenu.exe\" | Out-Null"
         ]
