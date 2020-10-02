@@ -4,6 +4,9 @@
     "homepage": "https://open-shell.github.io/Open-Shell-Menu/",
     "license": "",
     "notes": "",
+    "depends": [
+        "scoop-apps/OpenShellMenu-install"
+    ],
     "url": [
         "https://raw.githubusercontent.com/ACooper81/SharedFiles/master/SettingFiles/OpenShellMenu/Themes/W10/Tenified.skin",
         "https://raw.githubusercontent.com/ACooper81/SharedFiles/master/SettingFiles/OpenShellMenu/Themes/W10/w10icons.zip",
