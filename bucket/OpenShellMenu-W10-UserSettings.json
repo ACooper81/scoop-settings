@@ -1,5 +1,5 @@
 {
-    "version": "201002.1745",
+    "version": "201002.2219",
     "description": "This adds default settings for Open Shell Menu",
     "homepage": "https://open-shell.github.io/Open-Shell-Menu/",
     "license": "",
@@ -16,7 +16,9 @@
     ],
     "installer": {
         "script": [
-            "reg import \"$dir\\OpenShellW10UserSettings.reg\""
+            "reg import \"$dir\\OpenShellW10UserSettings.reg\"",
+            "&\"$ProgramFilesPath\\Open-Shell\\StartMenu.exe\" --exit",
+            "&\"$ProgramFilesPath\\Open-Shell\\StartMenu.exe\""
         ]
     }
 }
