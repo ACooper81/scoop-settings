@@ -1,0 +1,18 @@
+{
+    "version": "200719.1456",
+    "description": "This adds default settings for Open Shell Menu",
+    "homepage": "https://open-shell.github.io/Open-Shell-Menu/",
+    "license": "",
+    "notes": "",
+    "url": [
+        "https://raw.githubusercontent.com/ACooper81/SharedFiles/master/SettingFiles/OpenShellMenu/Themes/W10/OpenShellW10UserSettings.reg"
+    ],
+    "hash": [
+        "E533EDC7EF52C4D951F62ACBBAA751D5C00E4116E6B58B08377718781FC8C158"
+    ],
+    "installer": {
+        "script": [
+            "reg import \"$dir\\OpenShellW10UserSettings.reg\""
+        ]
+    }
+}
