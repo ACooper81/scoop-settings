@@ -28,6 +28,7 @@
             "if(!(Test-Path -Path $IconDestinationFolder )){New-Item -Path $IconDestinationFolder -ItemType directory}",
             "Copy-Item -Path \"$dir\\w10icons\\*\" -Destination \"$IconDestinationFolder\" -Force -Recurse",
             "&\"$ProgramFilesPath\\Open-Shell\\StartMenu.exe\" --exit",
+            "Start-Sleep 10",
             "&\"$ProgramFilesPath\\Open-Shell\\StartMenu.exe\""
         ]
     }
