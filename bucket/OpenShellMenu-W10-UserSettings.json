@@ -1,5 +1,5 @@
 {
-    "version": "201002.2224",
+    "version": "201002.2229",
     "description": "This adds default settings for Open Shell Menu",
     "homepage": "https://open-shell.github.io/Open-Shell-Menu/",
     "license": "",
@@ -19,6 +19,7 @@
             "reg import \"$dir\\OpenShellW10UserSettings.reg\"",
             "$ProgramFilesPath = [Environment]::GetFolderPath(\"ProgramFiles\")",
             "&\"$ProgramFilesPath\\Open-Shell\\StartMenu.exe\" --exit",
+            "Start-Sleep 10",
             "&\"$ProgramFilesPath\\Open-Shell\\StartMenu.exe\""
         ]
     }
