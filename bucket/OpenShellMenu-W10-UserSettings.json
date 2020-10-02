@@ -4,6 +4,10 @@
     "homepage": "https://open-shell.github.io/Open-Shell-Menu/",
     "license": "",
     "notes": "",
+    "depends": [
+        "scoop-apps/OpenShellMenu-install",
+        "scoop-settings/OpenShellMenu-W10-Settings"
+    ],
     "url": [
         "https://raw.githubusercontent.com/ACooper81/SharedFiles/master/SettingFiles/OpenShellMenu/Themes/W10/OpenShellW10UserSettings.reg"
     ],
