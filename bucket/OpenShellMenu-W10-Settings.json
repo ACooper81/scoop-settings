@@ -1,0 +1,22 @@
+{
+    "version": "201002.1745",
+    "description": "This adds default settings for Open Shell Menu",
+    "homepage": "https://open-shell.github.io/Open-Shell-Menu/",
+    "license": "",
+    "notes": "",
+    "url": [
+        "https://raw.githubusercontent.com/ACooper81/SharedFiles/master/SettingFiles/OpenShellMenu/Themes/W10/Tenified.skin",
+        "https://raw.githubusercontent.com/ACooper81/SharedFiles/master/SettingFiles/OpenShellMenu/Themes/W10/w10icons.zip",
+        "https://raw.githubusercontent.com/ACooper81/SharedFiles/master/SettingFiles/OpenShellMenu/Themes/W10/OpenShellW10ComputerSettings.reg"
+    ],
+    "hash": [
+        "C72011230F06BA683BEDD633AB4A23E79AB2BCA5BAF29CAC12CB3864AD5F69A2",
+        "4E7A8C7FB75D6363B169B4AF2DEEFBA362F64C778D2D76274C9A44A4D8361934",
+        "E57CA5E17DDC01469D85376573DCDD269E430D5942A4356B8715BDD86E050627"
+    ],
+    "installer": {
+        "script": [
+            "reg import \"$dir\\OpenShellW10ComputerSettings.reg\""
+        ]
+    }
+}
