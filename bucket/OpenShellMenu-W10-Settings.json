@@ -1,5 +1,5 @@
 {
-    "version": "201005.1749",
+    "version": "201012.2036",
     "description": "This adds default settings for Open Shell Menu",
     "homepage": "https://open-shell.github.io/Open-Shell-Menu/",
     "license": "",
@@ -15,7 +15,7 @@
     "hash": [
         "C72011230F06BA683BEDD633AB4A23E79AB2BCA5BAF29CAC12CB3864AD5F69A2",
         "CA5466A0F817D217D5F343DB23FF1C30458D5E069A26C29E8BCAA3BE510703E2",
-        "E57CA5E17DDC01469D85376573DCDD269E430D5942A4356B8715BDD86E050627"
+        "AF3257437E102AB080F44B4A86A8E873A5171653F8E7FA94B20906B9B87DD3E0"
     ],
     "installer": {
         "script": [
