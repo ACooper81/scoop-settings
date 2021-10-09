@@ -2,7 +2,7 @@
 
 `scoop bucket add Scoop-Apps https://github.com/ACooper81/scoop-apps`
 
-`scoop bucket add Scoop-Shortcutss https://github.com/ACooper81/scoop-shortcuts`
+`scoop bucket add Scoop-Settings https://github.com/ACooper81/scoop-settings`
 
 # Description
 This bucket requires that you add the Scoop-Apps bucket using the command above.
