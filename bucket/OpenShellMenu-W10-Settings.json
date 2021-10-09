@@ -1,5 +1,5 @@
 {
-    "version": "211010.0002",
+    "version": "211010.0025",
     "description": "This adds default settings for Open Shell Menu",
     "homepage": "https://open-shell.github.io/Open-Shell-Menu/",
     "license": "",
@@ -25,7 +25,7 @@
             "$ProgramFilesPath = [Environment]::GetFolderPath(\"ProgramFiles\")",
             "$SkinDestinationFolder = \"$ProgramFilesPath\\Open-Shell\\Skins\"",
             "if(!(Test-Path -Path $SkinDestinationFolder )){New-Item -Path $SkinDestinationFolder -ItemType directory}",
-            "Copy-Item -Path \"$dir\\Skins\" -Destination \"$SkinDestinationFolder\" -Force",
+            "Copy-Item -Path \"$dir\\Skins\\*\" -Destination \"$SkinDestinationFolder\" -Force",
             "$IconDestinationFolder = \"$ProgramFilesPath\\Open-Shell\\Icons\\w10icons\"",
             "if(!(Test-Path -Path $IconDestinationFolder )){New-Item -Path $IconDestinationFolder -ItemType directory}",
             "Copy-Item -Path \"$dir\\w10icons\\*\" -Destination \"$IconDestinationFolder\" -Force -Recurse",
